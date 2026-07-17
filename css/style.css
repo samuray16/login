@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+      background:linear-gradient( rgba(23, 88, 98, 0.816),  rgba(3, 19, 57, 0.816) );
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 12px;
+}
+
+.area-login{
+    background:linear-gradient( rgba(7, 21, 27, 0.816), rgba(102, 139, 213, 0.816) );
+    width: 100%;
+    width: 400px;
+    padding: 2%;
+    border-radius: 3%;
+   
+}
+   
+
+
+
+
+.campo-grupo {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%; 
+}
+
+
+
+.campo-grupo label {
+    margin-bottom: -1%;
+    font-size: 18px;
+    font-weight: bold;
+    color:  rgb(101, 108, 122);;
+
+}
+
+.falso{
+    color:rgb(255, 0, 0);
+}
+.paso{
+    color: green;
+}
+.tupa{
+    color: red;
+}
+
+
+input,button{
+    width: 100%;
+    padding: 2%;
+    margin-top: 4%;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    font-size: 16px;
+   
+}
+.titulo{
+   display: flex;
+   justify-content: center;
+   color: rgb(105, 98, 98);
+}
+.campo{
+    display: flex;
+    align-items: center;
+    color: #817b7b;
+  
+}
+p{
+    font-size: 20px;
+    color: #817b7b;
+}
+button{
+    margin-left: 1%;
+    background-color:  rgb(44, 72, 129);
+   
+}
+.botao:hover{
+    transition: 0.3s;
+    background-color:rgb(9, 58, 204);
+}
+
+
+.vdd{
+    color:rgb(255, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+}
+    
+
