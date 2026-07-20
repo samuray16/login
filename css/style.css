@@ -20,25 +20,17 @@ body{
     border-radius: 3%;
    
 }
-   
-
-
-
-
-.campo-grupo {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 5%; 
+.campos {
+    padding: 12px 10px;
+    border: 1px solid #ffff;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    background: transparent;
+    box-sizing: border-box;
 }
-
-
-
-.campo-grupo label {
-    margin-bottom: -1%;
-    font-size: 18px;
-    font-weight: bold;
-    color:  rgb(101, 108, 122);;
-
+.campos{
+    margin-left: 10px;
 }
 
 .falso{
@@ -53,7 +45,7 @@ body{
 
 
 input,button{
-    width: 100%;
+    width: 95%;
     padding: 2%;
     margin-top: 4%;
     border: 1px solid #000000;
@@ -77,8 +69,10 @@ p{
     color: #817b7b;
 }
 button{
-    margin-left: 1%;
+    margin-left: 10px;
+    border-radius: 13px;
     background-color:  rgb(44, 72, 129);
+    
    
 }
 .botao:hover{

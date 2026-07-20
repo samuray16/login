@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+      background:linear-gradient( rgba(1, 2, 20, 0.816), rgba(12, 92, 132, 0.63) );
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.tudo-cadastro{
+   background:linear-gradient( rgba(1, 2, 20, 0.816), rgba(12, 92, 132, 0.63) );
+   width: 400px;
+   padding: 30px;
+   border-radius: 12px;
+  
+}
+input,button{
+    width: 95%;
+    padding: 6px;
+    margin-top: 15px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    font-size: 16px;
+   
+}
+.titulo{
+   display: flex;
+   justify-content: center;
+   color: rgb(105, 98, 98);
+}
+.campo{
+    display: flex;
+    align-items: center;
+    color: #817b7b;
+  
+}
+p{
+    font-size: 20px;
+    color: #817b7b;
+}
+button{
+    margin-left: 15px;
+    border-radius: 15px;
+    background-color:  rgb(61, 86, 136);
+   
+}
+.botao:hover{
+    transition: 0.3s;
+    background-color:rgb(31, 53, 120);
+}
+
+
+.vdd{
+    color:rgb(255, 0, 0);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.grupo label {
+    font-size: 18px;
+    font-weight: bold;
+    color:  rgb(101, 108, 122);
+
+    
+}
+
+.campos {
+    padding: 12px 10px;
+    border: 1px solid #ffff;
+    border-radius: 20px;
+    font-size: 16px;
+    outline: none;
+    background: transparent;
+    box-sizing: border-box;
+}
+.campos{
+    margin-left: 15px;
+}
+.p{
+    margin-left: 18px;
+}
+
+
+
+
+   
+
+
+    

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="./css/cadastro.css">
+</head>
+<body>
+    <div class="container" >
+    <div class="tudo-cadastro">
+        <h1 class="titulo">Cadastro</h1>
+        <div class="grupo">
+        <input id="nome" class="campos" type="text" placeholder="Nome">
+        <input id="sobrenome" class="campos" type="text" placeholder="Sobrenome">
+        <input id="date" class="campos" type="date" placeholder="data de nascimento">
+        <input id="number" class="campos" type="text" placeholder="Telefone">
+        <input id="email" class="campos" type="email" placeholder="digite seu email">
+        <input id="placa" class="campos" type="text" placeholder="digite a placa do veículo">
+      
+        <p class="p">sexo</p>
+        <div class="campo">
+            <input id="masculino" type="radio" class="campos" name="genero" value="masculino">
+            <label for="masculino"><h3>masculino</h3></label>
+            <input id="feminino" type="radio" class="campos" name="genero" value="feminino">
+            <label for="feminino"><h3>feminino</h3></label> 
+        </div>     
+        
+        <p class="falso" id="mensagem"></p>
+       
+        <input id="senha" class="campos" type="password" placeholder="crie uma senha">
+        <input id="contraSenha" class="campos" type="password" placeholder="confirme a senha">
+        </div>
+        <button class="botao" id="Meubotao" disabled><h2>confirmar</h2></button>
+        
+        <p class="vdd" id="notificacao"></p>
+    </div>
+    </div>
+   
+       
+    <script src="scripit.js"></script>
+</body>
+</html>
