@@ -80,10 +80,19 @@ button{
     background-color:rgb(9, 58, 204);
 }
 
-
 .vdd{
     color:rgb(255, 0, 0);
     font-family:Arial, Helvetica, sans-serif;
+}
+.inft{
+    color: rgba(5, 5, 137, 0.91);
+    margin-left: 139px;
+    margin-top: 15px;
+    font-size: 20px;
+   
+}
+a{
+    text-decoration: none;
 }
     
 
